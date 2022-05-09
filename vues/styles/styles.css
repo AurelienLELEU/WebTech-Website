@@ -1,0 +1,90 @@
+.articles {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  padding: 10px 2;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  background-color: rgb(199, 199, 199) !important;
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  border: 10px ridge rgb(160, 160, 160, 0.9) !important;
+  word-wrap: break-word;
+  width: 370px;
+}
+
+.card-read {
+  justify-content: center !important;
+  text-align: center;
+  background-color: rgb(199, 199, 199) !important;
+  margin: 0 auto;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  border: 10px ridge rgb(160, 160, 160, 0.9) !important;
+  max-width: 1735px;
+  word-wrap: break-word;
+}
+
+.card-comment {
+  text-align: center;
+  background-color: rgb(199, 199, 199) !important;
+  margin-top: 10px !important;
+  margin-bottom: 5px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  max-width: 350px;
+  border: 1px solid rgb(100, 100, 100) !important;
+  word-wrap: break-word;
+}
+
+.card-body a {
+  align-self: right !important;
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  margin-bottom: 0px;
+  margin-top: auto;
+}
+
+.sortbar{
+  display: flex; 
+  background-color: rgba(52, 58, 64); 
+  padding-bottom: 10px;
+}
+
+.formm {
+  width: 90% !important;
+  display: flex;
+}
+
+.togglecomments {
+  padding-top: 10px;
+  padding-right: 15px;
+  margin-left: auto;
+}
+
+.container {
+  width: 60% !important;
+  margin: auto;
+}
+.container .titre {
+  width: 50% !important;
+}
+
+.container .content input {
+  height: 500px;
+}
+
+body {
+  background-color: rgb(87, 87, 87) !important;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
